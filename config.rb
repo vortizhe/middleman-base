@@ -15,5 +15,9 @@ configure :build do
   activate :minify_javascript
   activate :relative_assets
 
-  sass_options = { :debug_info => true }
+  sass_options = {
+    :debug_info => false,
+    :output_style => :expanded,
+    :line_comments => false
+  }
 end

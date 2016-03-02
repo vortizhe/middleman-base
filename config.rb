@@ -17,6 +17,11 @@ page '/*.txt', layout: false
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
+# General configuration
+config[:js_dir] = 'assets/javascripts'
+config[:css_dir] = 'assets/stylesheets'
+config[:font_dir] = 'assets/fonts'
+config[:images_dir] = 'assets/images'
 
 # Reload the browser automatically whenever files change
 configure :development do

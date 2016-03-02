@@ -7,3 +7,6 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 # Middleman Gems
 gem 'middleman', '~> 4.1.0'
 gem 'middleman-livereload'
+
+# Custom gems
+gem 'middleman-sprockets', github: 'middleman/middleman-sprockets', branch: 'master'

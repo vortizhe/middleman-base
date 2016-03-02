@@ -1,18 +1,22 @@
-Middleman Base Template
+Simple Middleman Base Template
 =======================
 
-Clone **middleman-base** into: `~/.middleman/middleman-base`
+## Features
+
+* Rack and Pow compatible
+* LiveReload
+* Sprockets with globbling imports
+* jQuery
+* Normalize
+* Custom assets structure
+
+## Requisites
+
+* Ruby > 2
+* Middleman > 4
+
+## Install
 
 ```
-$ git clone https://github.com/vortizhe/middleman-base.git ~/.middleman/middleman-base
+$ middleman init -T vortizhe/middleman-base YOUR_PROYECT_DIR
 ```
-
-Initialize a new middleman proyect
-
-```
-$ middleman init project_name --template=middleman-base
-$ cd project_name
-$ rm -rf .git/
-$ git init
-```
-

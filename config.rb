@@ -1,3 +1,4 @@
+require 'sass-globbing'
 
 ###
 # Page options, layouts, aliases and proxies

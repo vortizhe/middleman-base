@@ -10,3 +10,4 @@ gem 'middleman-livereload'
 
 # Custom gems
 gem 'middleman-sprockets', github: 'middleman/middleman-sprockets', branch: 'master'
+gem 'sass-globbing', '~> 1.1.1', require: false

@@ -8,6 +8,8 @@ Simple Middleman Base Template
 * Sprockets with globbling imports
 * jQuery
 * Normalize
+* Bourbon
+* Gintonic
 * Custom assets structure
 
 ## Requisites

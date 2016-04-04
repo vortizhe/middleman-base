@@ -21,7 +21,7 @@ page '/*.txt', layout: false
 # General configuration
 config[:js_dir] = 'assets/javascripts'
 config[:css_dir] = 'assets/stylesheets'
-config[:font_dir] = 'assets/fonts'
+config[:fonts_dir] = 'assets/fonts'
 config[:images_dir] = 'assets/images'
 
 # Reload the browser automatically whenever files change

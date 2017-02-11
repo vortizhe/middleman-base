@@ -14,7 +14,7 @@ Simple Middleman Base Template
 
 ## Requisites
 
-* Ruby 2.3.0
+* Ruby 2.3.3
 * Middleman > 4
 
 ## Install

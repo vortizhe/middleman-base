@@ -1,5 +1,3 @@
-require 'sass-globbing'
-
 ###
 # Page options, layouts, aliases and proxies
 ###
@@ -20,11 +18,18 @@ page '/*.txt', layout: false
 
 # General configuration
 # activate :i18n, :langs => [:es, :en], :mount_at_root => :es
+# activate :directory_indexes
+# set :trailing_slash, true
+
+# Assets
 activate :sprockets
-config[:js_dir] = 'assets/javascripts'
-config[:css_dir] = 'assets/stylesheets'
-config[:fonts_dir] = 'assets/fonts'
-config[:images_dir] = 'assets/images'
+set :js_dir, 'assets/javascripts'
+set :css_dir, 'assets/stylesheets'
+set :fonts_dir, 'assets/fonts'
+set :images_dir, 'assets/images'
+activate :autoprefixer do |config|
+  config.browsers = ['last 2 versions', 'Explorer >= 9', '> 1%']
+end
 
 # Reload the browser automatically whenever files change
 configure :development do

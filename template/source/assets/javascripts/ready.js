@@ -1,3 +1,3 @@
 $(function() {
-  console.log('Ready to go');
+  console.log('ready to go');
 });

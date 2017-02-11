@@ -5,11 +5,10 @@ Simple Middleman Base Template
 
 * Rack and Pow compatible
 * LiveReload
-* Sprockets with globbling imports
+* Sprockets
 * jQuery
-* Normalize
-* Bourbon
-* Gintonic
+* Dom-limpio
+* MQBE
 * Custom assets structure
 
 ## Requisites
